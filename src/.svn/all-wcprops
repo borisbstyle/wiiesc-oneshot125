@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 27
+/svn/!svn/ver/525/trunk/src
+END
+rx.h
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/503/trunk/src/rx.h
+END
+zc.h
+K 25
+svn:wc:ra_dav:version-url
+V 32
+/svn/!svn/ver/503/trunk/src/zc.h
+END
+start.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/510/trunk/src/start.h
+END
+config_data.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/503/trunk/src/config_data.h
+END
+power_stage.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/511/trunk/src/power_stage.h
+END
+global.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/522/trunk/src/global.h
+END
+wii_esc_ng.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/503/trunk/src/wii_esc_ng.cpp
+END
+sdm.h
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/503/trunk/src/sdm.h
+END
+storage.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/503/trunk/src/storage.h
+END
+run.h
+K 25
+svn:wc:ra_dav:version-url
+V 33
+/svn/!svn/ver/503/trunk/src/run.h
+END
+config.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/503/trunk/src/config.h
+END
+debug.h
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/503/trunk/src/debug.h
+END
+core.h
+K 25
+svn:wc:ra_dav:version-url
+V 34
+/svn/!svn/ver/522/trunk/src/core.h
+END

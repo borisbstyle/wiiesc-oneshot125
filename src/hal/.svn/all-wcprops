@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 31
+/svn/!svn/ver/525/trunk/src/hal
+END
+A32u4ESC.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/490/trunk/src/hal/A32u4ESC.h
+END
+m8_int.h
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/svn/!svn/ver/524/trunk/src/hal/m8_int.h
+END
+a32u4.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/503/trunk/src/hal/a32u4.h
+END
+tp_nfet.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/317/trunk/src/hal/tp_nfet.h
+END
+kda.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/522/trunk/src/hal/kda.h
+END
+qynx.h
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/svn/!svn/ver/525/trunk/src/hal/qynx.h
+END
+rct30nfs.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/524/trunk/src/hal/rct30nfs.h
+END
+tgy.h
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/525/trunk/src/hal/tgy.h
+END
+bs.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/525/trunk/src/hal/bs.h
+END
+a32u4_int.h
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/svn/!svn/ver/503/trunk/src/hal/a32u4_int.h
+END
+rct45nfs.h
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/svn/!svn/ver/525/trunk/src/hal/rct45nfs.h
+END
+rb50a.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/417/trunk/src/hal/rb50a.h
+END
+bs40a.h
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/525/trunk/src/hal/bs40a.h
+END
+bs_nfet.h
+K 25
+svn:wc:ra_dav:version-url
+V 41
+/svn/!svn/ver/525/trunk/src/hal/bs_nfet.h
+END
+tp.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/237/trunk/src/hal/tp.h
+END
+m8.h
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/503/trunk/src/hal/m8.h
+END
