@@ -1,0 +1,156 @@
+00000000 W __heap_end
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 a __tmp_reg__
+00000000 W __vector_default
+00000000 T __vectors
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000001 a __zero_reg__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+00000034 a __CCP__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003d a __SP_L__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003e a __SP_H__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+0000003f a __SREG__
+000000c4 00000040 t zc_filter_table
+00000104 T __ctors_end
+00000104 T __ctors_start
+00000104 T __dtors_end
+00000104 T __dtors_start
+00000104 W __init
+00000104 T __trampolines_end
+00000104 T __trampolines_start
+00000110 T __do_copy_data
+0000011c t .do_copy_data_loop
+00000120 t .do_copy_data_start
+00000126 T __do_clear_bss
+0000012e t .do_clear_bss_loop
+00000130 t .do_clear_bss_start
+0000013a T __bad_interrupt
+0000013a W __vector_10
+0000013a W __vector_11
+0000013a W __vector_12
+0000013a W __vector_13
+0000013a W __vector_14
+0000013a W __vector_15
+0000013a W __vector_16
+0000013a W __vector_17
+0000013a W __vector_18
+0000013a W __vector_2
+0000013a W __vector_3
+0000013a W __vector_4
+0000013a W __vector_5
+0000013a W __vector_6
+0000013a W __vector_7
+0000013a W __vector_8
+0000013a W __vector_9
+0000013c 00000050 T timer_expired(timer_big*, unsigned int)	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/global.h:160
+0000018c 0000002a T __delay_us(unsigned int)	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/hal/m8.h:41
+000001b6 0000001a T __delay_ms(unsigned int)	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/hal/m8.h:52
+000001d0 00000050 T __vector_1	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/hal/m8_int.h:42
+00000220 00000076 T filter_ppm_data()	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/rx.h:31
+00000296 00000032 T init_os125()	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/rx.h:47
+000002c8 0000001c T rx_get_frame()	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/rx.h:84
+000002e4 0000000e T free_spin()	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/power_stage.h:27
+000002f2 0000001c t set_pwm_on_comp_on(unsigned char)	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/power_stage.h:44
+0000030e 00000026 T set_pwm_on(unsigned char)	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/power_stage.h:66
+00000330 0000001c t set_pwm_off_comp_on(unsigned char)	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/power_stage.h:116
+0000034c 0000000e T set_pwm_off(unsigned char)	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/power_stage.h:138
+00000358 000000cc T change_comm_state(unsigned char)	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/power_stage.h:149
+00000424 00000024 T set_ac_state(unsigned char)	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/power_stage.h:254
+00000448 00000010 T set_comm_state()	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/power_stage.h:291
+00000456 0000002c T pct_to_val(unsigned char)	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/sdm.h:33
+0000045f W __stack
+00000482 00000050 T sdm()	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/sdm.h:48
+000004ce 0000002a T zc_start_detected()	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/zc.h:59
+000004f8 00000016 T zc_run_detected_lh()	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/zc.h:73
+0000050e 00000016 T zc_run_detected_hl()	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/zc.h:81
+00000524 0000005c T run_power_control()	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/run.h:31
+00000580 00000096 T run_timing_control(unsigned int)	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/run.h:41
+00000616 0000001c T run_init()	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/run.h:58
+00000630 000000c6 T setup_to_rt()	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/wii_esc_ng.cpp:38
+000006f6 00000062 T beep(unsigned char, unsigned char)	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/wii_esc_ng.cpp:51
+00000758 00000030 T startup_sound()	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/wii_esc_ng.cpp:62
+00000788 0000003a T wait_for(unsigned int, unsigned int, unsigned char)	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/wii_esc_ng.cpp:72
+000007c2 00000056 T get_stable_ppm_value()	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/wii_esc_ng.cpp:82
+00000818 00000016 T wait_for_arm()	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/wii_esc_ng.cpp:117
+0000082c 00000024 T wait_for_power_on()	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/wii_esc_ng.cpp:121
+0000084e 00000552 T loop	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/wii_esc_ng.cpp:174
+00000da0 0000002c T read_storage()	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/storage.h:43
+00000dca 0000002c T write_storage()	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/storage.h:50
+00000df4 0000009e T check_for_stick_cal()	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/wii_esc_ng.cpp:125
+00000e90 000000e8 T setup	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/wii_esc_ng.cpp:158
+00000f78 0000000a T nvram_open	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/lib-avr/nvram/nvram.c:7
+00000f82 00000002 T nvram_close	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/lib-avr/nvram/nvram.c:11
+00000f84 0000002c T nvram_read	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/lib-avr/nvram/nvram.c:14
+00000fb0 0000005e T nvram_write	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/lib-avr/nvram/nvram.c:30
+0000100e 0000000a T main	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/lib-avr/arduino/main.cpp:3
+00001018 00000004 T init	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/lib-avr/arduino/wiring.c:42
+0000101c T __mulsi3
+0000105a T __udivmodhi4
+00001062 t __udivmodhi4_loop
+00001070 t __udivmodhi4_ep
+00001082 T __divmodhi4
+00001082 T _div
+00001096 t __divmodhi4_neg2
+0000109c t __divmodhi4_exit
+0000109e t __divmodhi4_neg1
+000010a8 T __udivmodsi4
+000010b4 t __udivmodsi4_loop
+000010ce t __udivmodsi4_ep
+000010ec T __prologue_saves__
+00001124 T __epilogue_restores__
+0000115a 00000020 T __eerd_block_m8
+0000115e T __eerd_blraw_m8
+0000117a 00000010 T __eerd_byte_m8
+0000118a 0000001a T __eewr_byte_m8
+0000118c T __eewr_r18_m8
+000011a4 T _exit
+000011a4 W exit
+000011a6 t __stop_program
+000011a8 A __data_load_start
+000011a8 T _etext
+000011b2 A __data_load_end
+00800060 00000001 d __ver_magic
+00800060 D __data_start
+00800061 00000008 d nvr_entry
+0080006a B __bss_start
+0080006a D __data_end
+0080006a D _edata
+0080006a 0000000f B cfg	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/global.h:84
+00800079 0000000b B rx	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/global.h:96
+00800084 0000000c B sdm_rt	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/global.h:118
+00800090 00000002 B raw_ppm_data	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/rx.h:19
+00800092 00000002 B ppm_edge_time	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/rx.h:20
+00800094 00000006 B timer_ppm_timeout_prescaler	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/src/rx.h:21
+0080009a 0000000a b timer_start
+008000a4 00000002 b est_comm_time
+008000a6 00000001 b __result
+008000a7 00000006 b timer_zc_blank
+008000ad 00000006 b timer_comm_timeout
+008000b3 00000002 b last_tick
+008000b5 00000006 b timer_comm_delay
+008000bb 00000001 b timing_adv
+008000bc 00000002 b sys_limit
+008000be 00000002 b last_comm_time
+008000c0 00000002 b os125_max_us
+008000c2 00000002 b os125_min_us
+008000c4 00000002 b os125_max
+008000c6 00000002 b os125_min
+008000c8 00000002 b _address	C:\Users\boris.bozic.RADIOACCESS\Downloads\wii-esc-read-only/lib-avr/nvram/nvram.c:5
+008000ca B __bss_end
+008000ca N _end
+00810000 N __eeprom_end

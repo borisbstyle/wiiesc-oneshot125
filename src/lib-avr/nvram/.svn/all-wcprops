@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 37
+/svn/!svn/ver/237/trunk/lib-avr/nvram
+END
+nvram.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/237/trunk/lib-avr/nvram/nvram.c
+END
+nvram.h
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/237/trunk/lib-avr/nvram/nvram.h
+END

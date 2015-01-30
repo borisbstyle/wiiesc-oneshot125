@@ -1,83 +1,29 @@
 K 25
 svn:wc:ra_dav:version-url
-V 27
-/svn/!svn/ver/525/trunk/src
+V 23
+/svn/!svn/ver/525/trunk
 END
-rx.h
-K 25
-svn:wc:ra_dav:version-url
-V 32
-/svn/!svn/ver/503/trunk/src/rx.h
-END
-zc.h
-K 25
-svn:wc:ra_dav:version-url
-V 32
-/svn/!svn/ver/503/trunk/src/zc.h
-END
-start.h
-K 25
-svn:wc:ra_dav:version-url
-V 35
-/svn/!svn/ver/510/trunk/src/start.h
-END
-config_data.h
+wii_esc_ng.layout
 K 25
 svn:wc:ra_dav:version-url
 V 41
-/svn/!svn/ver/503/trunk/src/config_data.h
+/svn/!svn/ver/522/trunk/wii_esc_ng.layout
 END
-power_stage.h
-K 25
-svn:wc:ra_dav:version-url
-V 41
-/svn/!svn/ver/511/trunk/src/power_stage.h
-END
-global.h
+makefile.avr
 K 25
 svn:wc:ra_dav:version-url
 V 36
-/svn/!svn/ver/522/trunk/src/global.h
+/svn/!svn/ver/490/trunk/makefile.avr
 END
-wii_esc_ng.cpp
+wii_esc_ng.cbp
 K 25
 svn:wc:ra_dav:version-url
-V 42
-/svn/!svn/ver/503/trunk/src/wii_esc_ng.cpp
+V 38
+/svn/!svn/ver/522/trunk/wii_esc_ng.cbp
 END
-sdm.h
-K 25
-svn:wc:ra_dav:version-url
-V 33
-/svn/!svn/ver/503/trunk/src/sdm.h
-END
-storage.h
-K 25
-svn:wc:ra_dav:version-url
-V 37
-/svn/!svn/ver/503/trunk/src/storage.h
-END
-run.h
-K 25
-svn:wc:ra_dav:version-url
-V 33
-/svn/!svn/ver/503/trunk/src/run.h
-END
-config.h
-K 25
-svn:wc:ra_dav:version-url
-V 36
-/svn/!svn/ver/503/trunk/src/config.h
-END
-debug.h
+gpl-3.0.txt
 K 25
 svn:wc:ra_dav:version-url
 V 35
-/svn/!svn/ver/503/trunk/src/debug.h
-END
-core.h
-K 25
-svn:wc:ra_dav:version-url
-V 34
-/svn/!svn/ver/522/trunk/src/core.h
+/svn/!svn/ver/318/trunk/gpl-3.0.txt
 END

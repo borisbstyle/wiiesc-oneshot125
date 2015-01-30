@@ -2,7 +2,7 @@
 
 dir
 529
-http://wii-esc.googlecode.com/svn/trunk/src
+http://wii-esc.googlecode.com/svn/trunk
 http://wii-esc.googlecode.com/svn
 
 
@@ -10,7 +10,7 @@ http://wii-esc.googlecode.com/svn
 2014-02-13T00:33:14.556540Z
 525
 d.kayukov@gmail.com
-
+has-props
 
 
 
@@ -26,16 +26,16 @@ d.kayukov@gmail.com
 
 5c42c5a8-900f-5b5a-2f8c-d720ba63385b
 
-rx.h
+wii_esc_ng.layout
 file
 
 
 
 
-2015-01-29T23:11:53.208618Z
-fc97ab86f333e0ce0ce72575c67114e9
-2013-02-15T05:56:18.745399Z
-503
+2015-01-29T23:11:53.327618Z
+03fff7d01f0750fb7bd46d4e56df426d
+2014-02-07T01:26:42.992877Z
+522
 d.kayukov@gmail.com
 has-props
 
@@ -58,18 +58,18 @@ has-props
 
 
 
-2475
+3912
 
-zc.h
+makefile.avr
 file
 
 
 
 
-2015-01-29T23:11:53.208618Z
-256e5fa7e9105ddeda35fd524c27fea3
-2013-02-15T05:56:18.745399Z
-503
+2015-01-29T23:11:53.329618Z
+7cd7a57c8842136866192db670f1885c
+2012-12-19T09:35:00.305124Z
+490
 d.kayukov@gmail.com
 has-props
 
@@ -92,121 +92,25 @@ has-props
 
 
 
-2642
+4746
 
-start.h
-file
-
-
-
-
-2015-01-29T23:11:53.208618Z
-44d1fd30b5560c0d4e0b5beae37c87da
-2013-02-24T00:36:38.757314Z
-510
-d.kayukov@gmail.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2844
-
-hal
+lib
 dir
 
-config_data.h
-file
-
-
-
-
-2015-01-29T23:11:53.208618Z
-487b6f84dd895dda0d2289203c8da9ac
-2013-02-15T05:56:18.745399Z
-503
-d.kayukov@gmail.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2768
+src
+dir
 
-power_stage.h
-file
-
-
-
-
-2015-01-29T23:11:53.209618Z
-8d995e12fe0a58a909eee339b97fc83b
-2013-03-12T10:05:06.379093Z
-511
-d.kayukov@gmail.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-6398
+bin
+dir
 
-global.h
+wii_esc_ng.cbp
 file
 
 
 
 
-2015-01-29T23:11:53.209618Z
-fe871127116fd4a0e026def5653b6aa4
+2015-01-29T23:11:53.329618Z
+a9d57d68a5d5057e15cabd2d19b8949b
 2014-02-07T01:26:42.992877Z
 522
 d.kayukov@gmail.com
@@ -231,18 +135,24 @@ has-props
 
 
 
-4400
+24950
 
-wii_esc_ng.cpp
+obj
+dir
+
+lib-avr
+dir
+
+gpl-3.0.txt
 file
 
 
 
 
-2015-01-29T23:11:53.210618Z
-a0efd18afdaa10bacfe44dc05c97238a
-2013-02-15T05:56:18.745399Z
-503
+2015-01-29T23:11:53.330618Z
+16893fdbb628c69a45803cb052c09c2b
+2012-09-05T09:13:11.975847Z
+318
 d.kayukov@gmail.com
 has-props
 
@@ -265,209 +175,5 @@ has-props
 
 
 
-4433
-
-sdm.h
-file
-
-
-
-
-2015-01-29T23:11:53.210618Z
-67b17fba65878edefb15c2d43321faba
-2013-02-15T05:56:18.745399Z
-503
-d.kayukov@gmail.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1781
-
-storage.h
-file
-
-
-
-
-2015-01-29T23:11:53.210618Z
-fd684c272fef096ac1148c9102c5a986
-2013-02-15T05:56:18.745399Z
-503
-d.kayukov@gmail.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1926
-
-run.h
-file
-
-
-
-
-2015-01-29T23:11:53.210618Z
-c6eb691a37248873577d0ebeb2bd8bfe
-2013-02-15T05:56:18.745399Z
-503
-d.kayukov@gmail.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-4312
-
-config.h
-file
-
-
-
-
-2015-01-29T23:11:53.211618Z
-85fe83d4fa46e2e94caf4861e134214d
-2013-02-15T05:56:18.745399Z
-503
-d.kayukov@gmail.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1819
-
-debug.h
-file
-
-
-
-
-2015-01-29T23:11:53.211618Z
-e0f179803322ea24e1557147d5501429
-2013-02-15T05:56:18.745399Z
-503
-d.kayukov@gmail.com
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-1318
-
-core.h
-file
-
-
-
-
-2015-01-29T23:11:53.211618Z
-0f1ceca74ebdd2033a882a0894a3b119
-2014-02-07T01:26:42.992877Z
-522
-d.kayukov@gmail.com
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2157
+32423
 
