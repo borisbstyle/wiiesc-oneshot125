@@ -215,7 +215,7 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x11f6
+.text           0x00000000     0x11a8
  *(.vectors)
  .vectors       0x00000000       0x26 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4/crtm8.o
                 0x00000000                __vectors
@@ -307,135 +307,138 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a
                 0x000001d0       0x50 obj/avr/src/wii_esc_ng.o
                 0x000001d0                __vector_1
  .text._Z15filter_ppm_datav
-                0x00000220       0xb0 obj/avr/src/wii_esc_ng.o
+                0x00000220       0x76 obj/avr/src/wii_esc_ng.o
                 0x00000220                filter_ppm_data()
+ .text._Z10init_os125v
+                0x00000296       0x32 obj/avr/src/wii_esc_ng.o
+                0x00000296                init_os125()
  .text._Z12rx_get_framev
-                0x000002d0       0x1c obj/avr/src/wii_esc_ng.o
-                0x000002d0                rx_get_frame()
+                0x000002c8       0x1c obj/avr/src/wii_esc_ng.o
+                0x000002c8                rx_get_frame()
  .text._Z9free_spinv
-                0x000002ec        0xe obj/avr/src/wii_esc_ng.o
-                0x000002ec                free_spin()
+                0x000002e4        0xe obj/avr/src/wii_esc_ng.o
+                0x000002e4                free_spin()
  .text._ZL18set_pwm_on_comp_onh
-                0x000002fa       0x1c obj/avr/src/wii_esc_ng.o
+                0x000002f2       0x1c obj/avr/src/wii_esc_ng.o
  .text._Z10set_pwm_onh
-                0x00000316       0x22 obj/avr/src/wii_esc_ng.o
-                0x00000316                set_pwm_on(unsigned char)
+                0x0000030e       0x22 obj/avr/src/wii_esc_ng.o
+                0x0000030e                set_pwm_on(unsigned char)
  .text._ZL19set_pwm_off_comp_onh
-                0x00000338       0x1c obj/avr/src/wii_esc_ng.o
+                0x00000330       0x1c obj/avr/src/wii_esc_ng.o
  .text._Z11set_pwm_offh
-                0x00000354        0xc obj/avr/src/wii_esc_ng.o
-                0x00000354                set_pwm_off(unsigned char)
+                0x0000034c        0xc obj/avr/src/wii_esc_ng.o
+                0x0000034c                set_pwm_off(unsigned char)
  .text._Z17change_comm_stateh
-                0x00000360       0xcc obj/avr/src/wii_esc_ng.o
-                0x00000360                change_comm_state(unsigned char)
+                0x00000358       0xcc obj/avr/src/wii_esc_ng.o
+                0x00000358                change_comm_state(unsigned char)
  .text._Z12set_ac_stateh
-                0x0000042c       0x24 obj/avr/src/wii_esc_ng.o
-                0x0000042c                set_ac_state(unsigned char)
+                0x00000424       0x24 obj/avr/src/wii_esc_ng.o
+                0x00000424                set_ac_state(unsigned char)
  .text._Z14set_comm_statev
-                0x00000450        0xe obj/avr/src/wii_esc_ng.o
-                0x00000450                set_comm_state()
+                0x00000448        0xe obj/avr/src/wii_esc_ng.o
+                0x00000448                set_comm_state()
  .text._Z10pct_to_valh
-                0x0000045e       0x2c obj/avr/src/wii_esc_ng.o
-                0x0000045e                pct_to_val(unsigned char)
- .text._Z3sdmv  0x0000048a       0x4c obj/avr/src/wii_esc_ng.o
-                0x0000048a                sdm()
+                0x00000456       0x2c obj/avr/src/wii_esc_ng.o
+                0x00000456                pct_to_val(unsigned char)
+ .text._Z3sdmv  0x00000482       0x4c obj/avr/src/wii_esc_ng.o
+                0x00000482                sdm()
  .text._Z17zc_start_detectedv
-                0x000004d6       0x2a obj/avr/src/wii_esc_ng.o
-                0x000004d6                zc_start_detected()
+                0x000004ce       0x2a obj/avr/src/wii_esc_ng.o
+                0x000004ce                zc_start_detected()
  .text._Z18zc_run_detected_lhv
-                0x00000500       0x16 obj/avr/src/wii_esc_ng.o
-                0x00000500                zc_run_detected_lh()
+                0x000004f8       0x16 obj/avr/src/wii_esc_ng.o
+                0x000004f8                zc_run_detected_lh()
  .text._Z18zc_run_detected_hlv
-                0x00000516       0x16 obj/avr/src/wii_esc_ng.o
-                0x00000516                zc_run_detected_hl()
+                0x0000050e       0x16 obj/avr/src/wii_esc_ng.o
+                0x0000050e                zc_run_detected_hl()
  .text._Z17run_power_controlv
-                0x0000052c       0x5c obj/avr/src/wii_esc_ng.o
-                0x0000052c                run_power_control()
+                0x00000524       0x5c obj/avr/src/wii_esc_ng.o
+                0x00000524                run_power_control()
  .text._Z18run_timing_controlj
-                0x00000588       0x96 obj/avr/src/wii_esc_ng.o
-                0x00000588                run_timing_control(unsigned int)
+                0x00000580       0x96 obj/avr/src/wii_esc_ng.o
+                0x00000580                run_timing_control(unsigned int)
  .text._Z8run_initv
-                0x0000061e       0x1a obj/avr/src/wii_esc_ng.o
-                0x0000061e                run_init()
+                0x00000616       0x1a obj/avr/src/wii_esc_ng.o
+                0x00000616                run_init()
  .text._Z11setup_to_rtv
-                0x00000638       0xd2 obj/avr/src/wii_esc_ng.o
-                0x00000638                setup_to_rt()
+                0x00000630       0xc6 obj/avr/src/wii_esc_ng.o
+                0x00000630                setup_to_rt()
  .text._Z4beephh
-                0x0000070a       0x62 obj/avr/src/wii_esc_ng.o
-                0x0000070a                beep(unsigned char, unsigned char)
+                0x000006f6       0x62 obj/avr/src/wii_esc_ng.o
+                0x000006f6                beep(unsigned char, unsigned char)
  .text._Z13startup_soundv
-                0x0000076c       0x30 obj/avr/src/wii_esc_ng.o
-                0x0000076c                startup_sound()
+                0x00000758       0x30 obj/avr/src/wii_esc_ng.o
+                0x00000758                startup_sound()
  .text._Z8wait_forjjh
-                0x0000079c       0x3a obj/avr/src/wii_esc_ng.o
-                0x0000079c                wait_for(unsigned int, unsigned int, unsigned char)
+                0x00000788       0x3a obj/avr/src/wii_esc_ng.o
+                0x00000788                wait_for(unsigned int, unsigned int, unsigned char)
  .text._Z20get_stable_ppm_valuev
-                0x000007d6       0x56 obj/avr/src/wii_esc_ng.o
-                0x000007d6                get_stable_ppm_value()
+                0x000007c2       0x56 obj/avr/src/wii_esc_ng.o
+                0x000007c2                get_stable_ppm_value()
  .text._Z12wait_for_armv
-                0x0000082c       0x14 obj/avr/src/wii_esc_ng.o
-                0x0000082c                wait_for_arm()
+                0x00000818       0x14 obj/avr/src/wii_esc_ng.o
+                0x00000818                wait_for_arm()
  .text._Z17wait_for_power_onv
-                0x00000840       0x22 obj/avr/src/wii_esc_ng.o
-                0x00000840                wait_for_power_on()
- .text.loop     0x00000862      0x552 obj/avr/src/wii_esc_ng.o
-                0x00000862                loop
+                0x0000082c       0x22 obj/avr/src/wii_esc_ng.o
+                0x0000082c                wait_for_power_on()
+ .text.loop     0x0000084e      0x552 obj/avr/src/wii_esc_ng.o
+                0x0000084e                loop
  .text._Z12read_storagev
-                0x00000db4       0x2a obj/avr/src/wii_esc_ng.o
-                0x00000db4                read_storage()
+                0x00000da0       0x2a obj/avr/src/wii_esc_ng.o
+                0x00000da0                read_storage()
  .text._Z13write_storagev
-                0x00000dde       0x2a obj/avr/src/wii_esc_ng.o
-                0x00000dde                write_storage()
+                0x00000dca       0x2a obj/avr/src/wii_esc_ng.o
+                0x00000dca                write_storage()
  .text._Z19check_for_stick_calv
-                0x00000e08       0x9c obj/avr/src/wii_esc_ng.o
-                0x00000e08                check_for_stick_cal()
- .text.setup    0x00000ea4      0x122 obj/avr/src/wii_esc_ng.o
-                0x00000ea4                setup
+                0x00000df4       0x9c obj/avr/src/wii_esc_ng.o
+                0x00000df4                check_for_stick_cal()
+ .text.setup    0x00000e90       0xe8 obj/avr/src/wii_esc_ng.o
+                0x00000e90                setup
  .text.nvram_open
-                0x00000fc6        0xa obj/avr/core.a(nvram.o)
-                0x00000fc6                nvram_open
+                0x00000f78        0xa obj/avr/core.a(nvram.o)
+                0x00000f78                nvram_open
  .text.nvram_close
-                0x00000fd0        0x2 obj/avr/core.a(nvram.o)
-                0x00000fd0                nvram_close
+                0x00000f82        0x2 obj/avr/core.a(nvram.o)
+                0x00000f82                nvram_close
  .text.nvram_read
-                0x00000fd2       0x2c obj/avr/core.a(nvram.o)
-                0x00000fd2                nvram_read
+                0x00000f84       0x2c obj/avr/core.a(nvram.o)
+                0x00000f84                nvram_read
  .text.nvram_write
-                0x00000ffe       0x5e obj/avr/core.a(nvram.o)
-                0x00000ffe                nvram_write
- .text.main     0x0000105c        0xa obj/avr/core.a(main.o)
-                0x0000105c                main
- .text.init     0x00001066        0x4 obj/avr/core.a(wiring.o)
-                0x00001066                init
- .text.libgcc   0x0000106a       0x3e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mulsi3.o)
-                0x0000106a                __mulsi3
- .text.libgcc   0x000010a8       0x28 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodhi4.o)
-                0x000010a8                __udivmodhi4
- .text.libgcc   0x000010d0       0x26 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_divmodhi4.o)
-                0x000010d0                __divmodhi4
-                0x000010d0                _div
- .text.libgcc   0x000010f6       0x44 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodsi4.o)
-                0x000010f6                __udivmodsi4
- .text.libgcc   0x0000113a       0x38 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_prologue.o)
-                0x0000113a                __prologue_saves__
- .text.libgcc   0x00001172       0x36 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_epilogue.o)
-                0x00001172                __epilogue_restores__
+                0x00000fb0       0x5e obj/avr/core.a(nvram.o)
+                0x00000fb0                nvram_write
+ .text.main     0x0000100e        0xa obj/avr/core.a(main.o)
+                0x0000100e                main
+ .text.init     0x00001018        0x4 obj/avr/core.a(wiring.o)
+                0x00001018                init
+ .text.libgcc   0x0000101c       0x3e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_mulsi3.o)
+                0x0000101c                __mulsi3
+ .text.libgcc   0x0000105a       0x28 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodhi4.o)
+                0x0000105a                __udivmodhi4
+ .text.libgcc   0x00001082       0x26 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_divmodhi4.o)
+                0x00001082                __divmodhi4
+                0x00001082                _div
+ .text.libgcc   0x000010a8       0x44 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_udivmodsi4.o)
+                0x000010a8                __udivmodsi4
+ .text.libgcc   0x000010ec       0x38 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_prologue.o)
+                0x000010ec                __prologue_saves__
+ .text.libgcc   0x00001124       0x36 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_epilogue.o)
+                0x00001124                __epilogue_restores__
  .text.avr-libc
-                0x000011a8       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(eerd_block_atmega8.o)
-                0x000011ac                __eerd_blraw_m8
-                0x000011a8                __eerd_block_m8
+                0x0000115a       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(eerd_block_atmega8.o)
+                0x0000115e                __eerd_blraw_m8
+                0x0000115a                __eerd_block_m8
  .text.avr-libc
-                0x000011c8       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(eerd_byte_atmega8.o)
-                0x000011c8                __eerd_byte_m8
+                0x0000117a       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(eerd_byte_atmega8.o)
+                0x0000117a                __eerd_byte_m8
  .text.avr-libc
-                0x000011d8       0x1a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(eewr_byte_atmega8.o)
-                0x000011d8                __eewr_byte_m8
-                0x000011da                __eewr_r18_m8
-                0x000011f2                . = ALIGN (0x2)
+                0x0000118a       0x1a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr4\libc.a(eewr_byte_atmega8.o)
+                0x0000118a                __eewr_byte_m8
+                0x0000118c                __eewr_r18_m8
+                0x000011a4                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x000011f2        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_exit.o)
-                0x000011f2                exit
-                0x000011f2                _exit
+ .fini9         0x000011a4        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_exit.o)
+                0x000011a4                exit
+                0x000011a4                _exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -454,11 +457,11 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x000011f2        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_exit.o)
+ .fini0         0x000011a4        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a(_exit.o)
  *(.fini0)
-                0x000011f6                _etext = .
+                0x000011a8                _etext = .
 
-.data           0x00800060        0xa load address 0x000011f6
+.data           0x00800060        0xa load address 0x000011a8
                 0x00800060                PROVIDE (__data_start, .)
  *(.data)
  *(.data*)
@@ -474,7 +477,7 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a
                 0x0080006a                _edata = .
                 0x0080006a                PROVIDE (__data_end, .)
 
-.bss            0x0080006a       0x61
+.bss            0x0080006a       0x60
                 0x0080006a                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
@@ -507,34 +510,32 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a
                 0x008000b3        0x2 obj/avr/src/wii_esc_ng.o
  .bss._ZL16timer_comm_delay
                 0x008000b5        0x6 obj/avr/src/wii_esc_ng.o
- .bss._ZL10oneshot125
-                0x008000bb        0x1 obj/avr/src/wii_esc_ng.o
- .bss._ZL13rcp_os_max_us
-                0x008000bc        0x2 obj/avr/src/wii_esc_ng.o
- .bss._ZL13rcp_os_min_us
-                0x008000be        0x2 obj/avr/src/wii_esc_ng.o
  .bss._ZL10timing_adv
-                0x008000c0        0x1 obj/avr/src/wii_esc_ng.o
+                0x008000bb        0x1 obj/avr/src/wii_esc_ng.o
  .bss._ZL9sys_limit
-                0x008000c1        0x2 obj/avr/src/wii_esc_ng.o
+                0x008000bc        0x2 obj/avr/src/wii_esc_ng.o
  .bss._ZL14last_comm_time
-                0x008000c3        0x2 obj/avr/src/wii_esc_ng.o
- .bss._ZL10rcp_os_min
-                0x008000c5        0x2 obj/avr/src/wii_esc_ng.o
- .bss._ZL10rcp_os_max
-                0x008000c7        0x2 obj/avr/src/wii_esc_ng.o
- .bss._address  0x008000c9        0x2 obj/avr/core.a(nvram.o)
+                0x008000be        0x2 obj/avr/src/wii_esc_ng.o
+ .bss._ZL12os125_max_us
+                0x008000c0        0x2 obj/avr/src/wii_esc_ng.o
+ .bss._ZL12os125_min_us
+                0x008000c2        0x2 obj/avr/src/wii_esc_ng.o
+ .bss._ZL9os125_max
+                0x008000c4        0x2 obj/avr/src/wii_esc_ng.o
+ .bss._ZL9os125_min
+                0x008000c6        0x2 obj/avr/src/wii_esc_ng.o
+ .bss._address  0x008000c8        0x2 obj/avr/core.a(nvram.o)
  *(COMMON)
-                0x008000cb                PROVIDE (__bss_end, .)
-                0x000011f6                __data_load_start = LOADADDR (.data)
-                0x00001200                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x008000ca                PROVIDE (__bss_end, .)
+                0x000011a8                __data_load_start = LOADADDR (.data)
+                0x000011b2                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x008000cb        0x0
-                0x008000cb                PROVIDE (__noinit_start, .)
+.noinit         0x008000ca        0x0
+                0x008000ca                PROVIDE (__noinit_start, .)
  *(.noinit*)
-                0x008000cb                PROVIDE (__noinit_end, .)
-                0x008000cb                _end = .
-                0x008000cb                PROVIDE (__heap_start, .)
+                0x008000ca                PROVIDE (__noinit_end, .)
+                0x008000ca                _end = .
+                0x008000ca                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
  *(.eeprom*)
@@ -585,35 +586,35 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a
 .debug_sfnames
  *(.debug_sfnames)
 
-.debug_aranges  0x00000000      0x1d8
+.debug_aranges  0x00000000      0x1e0
  *(.debug_aranges)
  .debug_aranges
-                0x00000000      0x158 obj/avr/src/wii_esc_ng.o
+                0x00000000      0x160 obj/avr/src/wii_esc_ng.o
  .debug_aranges
-                0x00000158       0x40 obj/avr/core.a(nvram.o)
+                0x00000160       0x40 obj/avr/core.a(nvram.o)
  .debug_aranges
-                0x00000198       0x20 obj/avr/core.a(main.o)
+                0x000001a0       0x20 obj/avr/core.a(main.o)
  .debug_aranges
-                0x000001b8       0x20 obj/avr/core.a(wiring.o)
+                0x000001c0       0x20 obj/avr/core.a(wiring.o)
 
 .debug_pubnames
-                0x00000000      0x42a
+                0x00000000      0x439
  *(.debug_pubnames)
  .debug_pubnames
-                0x00000000      0x38f obj/avr/src/wii_esc_ng.o
+                0x00000000      0x39e obj/avr/src/wii_esc_ng.o
  .debug_pubnames
-                0x0000038f       0x65 obj/avr/core.a(nvram.o)
+                0x0000039e       0x65 obj/avr/core.a(nvram.o)
  .debug_pubnames
-                0x000003f4       0x1b obj/avr/core.a(main.o)
+                0x00000403       0x1b obj/avr/core.a(main.o)
  .debug_pubnames
-                0x0000040f       0x1b obj/avr/core.a(wiring.o)
+                0x0000041e       0x1b obj/avr/core.a(wiring.o)
 
-.debug_info     0x00000000     0x24cd
+.debug_info     0x00000000     0x24d3
  *(.debug_info)
- .debug_info    0x00000000     0x212e obj/avr/src/wii_esc_ng.o
- .debug_info    0x0000212e      0x23a obj/avr/core.a(nvram.o)
- .debug_info    0x00002368       0xe8 obj/avr/core.a(main.o)
- .debug_info    0x00002450       0x7d obj/avr/core.a(wiring.o)
+ .debug_info    0x00000000     0x2134 obj/avr/src/wii_esc_ng.o
+ .debug_info    0x00002134      0x23a obj/avr/core.a(nvram.o)
+ .debug_info    0x0000236e       0xe8 obj/avr/core.a(main.o)
+ .debug_info    0x00002456       0x7d obj/avr/core.a(wiring.o)
  *(.gnu.linkonce.wi.*)
 
 .debug_abbrev   0x00000000      0x64a
@@ -623,43 +624,43 @@ LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr4\libgcc.a
  .debug_abbrev  0x000005a5       0x64 obj/avr/core.a(main.o)
  .debug_abbrev  0x00000609       0x41 obj/avr/core.a(wiring.o)
 
-.debug_line     0x00000000     0x19ad
+.debug_line     0x00000000     0x1999
  *(.debug_line)
- .debug_line    0x00000000     0x1684 obj/avr/src/wii_esc_ng.o
- .debug_line    0x00001684      0x1e2 obj/avr/core.a(nvram.o)
- .debug_line    0x00001866       0xcb obj/avr/core.a(main.o)
- .debug_line    0x00001931       0x7c obj/avr/core.a(wiring.o)
+ .debug_line    0x00000000     0x1670 obj/avr/src/wii_esc_ng.o
+ .debug_line    0x00001670      0x1e2 obj/avr/core.a(nvram.o)
+ .debug_line    0x00001852       0xcb obj/avr/core.a(main.o)
+ .debug_line    0x0000191d       0x7c obj/avr/core.a(wiring.o)
 
-.debug_frame    0x00000000      0x330
+.debug_frame    0x00000000      0x340
  *(.debug_frame)
- .debug_frame   0x00000000      0x290 obj/avr/src/wii_esc_ng.o
- .debug_frame   0x00000290       0x60 obj/avr/core.a(nvram.o)
- .debug_frame   0x000002f0       0x20 obj/avr/core.a(main.o)
- .debug_frame   0x00000310       0x20 obj/avr/core.a(wiring.o)
+ .debug_frame   0x00000000      0x2a0 obj/avr/src/wii_esc_ng.o
+ .debug_frame   0x000002a0       0x60 obj/avr/core.a(nvram.o)
+ .debug_frame   0x00000300       0x20 obj/avr/core.a(main.o)
+ .debug_frame   0x00000320       0x20 obj/avr/core.a(wiring.o)
 
-.debug_str      0x00000000      0xca7
+.debug_str      0x00000000      0xca9
  *(.debug_str)
- .debug_str     0x00000000      0xba1 obj/avr/src/wii_esc_ng.o
-                                0xc43 (size before relaxing)
- .debug_str     0x00000ba1       0xcf obj/avr/core.a(nvram.o)
+ .debug_str     0x00000000      0xbe0 obj/avr/src/wii_esc_ng.o
+                                0xc77 (size before relaxing)
+ .debug_str     0x00000be0       0x92 obj/avr/core.a(nvram.o)
                                 0x153 (size before relaxing)
- .debug_str     0x00000c70       0x1e obj/avr/core.a(main.o)
+ .debug_str     0x00000c72       0x1e obj/avr/core.a(main.o)
                                  0xdd (size before relaxing)
- .debug_str     0x00000c8e       0x19 obj/avr/core.a(wiring.o)
+ .debug_str     0x00000c90       0x19 obj/avr/core.a(wiring.o)
                                  0xd3 (size before relaxing)
 
-.debug_loc      0x00000000      0xe48
+.debug_loc      0x00000000      0xe18
  *(.debug_loc)
- .debug_loc     0x00000000      0xd10 obj/avr/src/wii_esc_ng.o
- .debug_loc     0x00000d10      0x138 obj/avr/core.a(nvram.o)
+ .debug_loc     0x00000000      0xce0 obj/avr/src/wii_esc_ng.o
+ .debug_loc     0x00000ce0      0x138 obj/avr/core.a(nvram.o)
 
 .debug_macinfo
  *(.debug_macinfo)
 OUTPUT(bin/avr/wii_esc_ng.elf elf32-avr)
 LOAD linker stubs
 
-.debug_ranges   0x00000000      0x3f0
- .debug_ranges  0x00000000      0x358 obj/avr/src/wii_esc_ng.o
- .debug_ranges  0x00000358       0x68 obj/avr/core.a(nvram.o)
- .debug_ranges  0x000003c0       0x18 obj/avr/core.a(main.o)
- .debug_ranges  0x000003d8       0x18 obj/avr/core.a(wiring.o)
+.debug_ranges   0x00000000      0x3f8
+ .debug_ranges  0x00000000      0x360 obj/avr/src/wii_esc_ng.o
+ .debug_ranges  0x00000360       0x68 obj/avr/core.a(nvram.o)
+ .debug_ranges  0x000003c8       0x18 obj/avr/core.a(main.o)
+ .debug_ranges  0x000003e0       0x18 obj/avr/core.a(wiring.o)
